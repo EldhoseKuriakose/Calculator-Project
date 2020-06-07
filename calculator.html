@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
         <link rel="stylesheet" type="text/css" href="Assets/CSS/stylecalculator.css">
     </head>
@@ -10,70 +11,34 @@
         <div id="calculator">
 
             <div id="display-container">
-                <p id="display">0</p>
+                <div id="previous-operand"></div>
+                <div id="current-operand"></div>
             </div>
 
-            <div class="button leftside" data-value="AC">
-                <span>AC</span>
-            </div>
-            <div class="button" data-value="+/-">
-                <span>+/-</span>
-            </div>
-            <div class="button" data-value="%">
-                <span>%</span>
-            </div>
-            <div class="button operators" data-value="/">
-                <span>/</span>
-            </div>
-            <div class="button leftside" data-value="7">
-                <span>7</span>
-            </div>
-            <div class="button" data-value="8">
-                <span>8</span>
-            </div>
-            <div class="button" data-value="9">
-                <span>9</span>
-            </div>
-            <div class="button operators" data-value="*">
-                <span>*</span>
-            </div>
-            <div class="button leftside" data-value="4">
-                <span>4</span>
-            </div>
-            <div class="button" data-value="5">
-                <span>5</span>
-            </div>
-            <div class="button" data-value="6">
-                <span>6</span>
-            </div>
-            <div class="button operators" data-value="-">
-                <span>-</span>
-            </div>
-            <div class="button leftside" data-value="1">
-                <span>1</span>
-            </div>
-            <div class="button" data-value="2">
-                <span>2</span>
-            </div>
-            <div class="button" data-value="3">
-                <span>3</span>
-            </div>
-            <div class="button operators" data-value="+">
-                <span>+</span>
-            </div>
-            <div class="button leftside" id="zero" data-value="0">
-                <span>0</span>
-            </div>
-            <div class="button" data-value=".">
-                <span>.</span>
-            </div>
-            <div class="button operators" data-value="=">
-                <span>=</span>
-            </div>
+            <button class="special-operators all-clear">AC</button>
+            <button class="special-operators delete-data">DEL</button>
+            <button class="special-operators operator">%</button>
+            <button class="special-operators operator">/</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="special-operators operator">*</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="special-operators operator">+</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="special-operators operator">-</button>
+            <button class="number">0</button>
+            <button class="number">.</button>
+            <button class="number">+/-</button>
+            <button class="equals special">=</button>
 
         </div>
     
-    <script type="text/javascript" src="Assets/JavaScript/scriptcalculator.js"></script>
+        <script type="text/javascript" src="Assets/JavaScript/scriptcalculator.js"></script>
 
     </body>
 </html>
