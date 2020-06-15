@@ -3,8 +3,7 @@
  
 ##### Installation Instructions
  1. Clone the repository to the system
- 2. `npm install` - To install the required packages
- 3. `npm start` - To start the server
+ 2. Open `index.html` in a browser
  
  ###### Technologies used
  HTML, CSS, JavaScript
