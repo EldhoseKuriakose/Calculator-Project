@@ -5,5 +5,8 @@
  1. Clone the repository to the system
  2. Open `index.html` in a browser
  
- ###### Technologies used
- HTML, CSS, JavaScript
+###### Technologies used
+HTML, CSS, JavaScript
+
+### Live
+https://brave-kowalevski-c3336e.netlify.app/
